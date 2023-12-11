@@ -5,7 +5,7 @@ import datetime
 
 
 #path on linux
-owl_path = "file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl"
+owl_path = "file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl"
 
 #path on windows
 #owl_path = "file://C:\\Users\\User\\Documents\\Faculdade\\TCC\\owlReady\\ontology.owl"
@@ -124,6 +124,11 @@ with onto:
     class orienta(ObjectProperty):
         domain = [Pesquisador]
         range = [Orientacoes]
+    
+    class possui_formacao(ObjectProperty):
+        domain = [Pesquisador]
+        range = [Formacoes]
+
 
 
 
@@ -250,7 +255,14 @@ with onto:
                 Orientacoes_lattes_id = Orientacoes.LattesId[0]
                 if Pesquisador_lattes_id == Orientacoes_lattes_id:
                     #cria relação
-                    entidade_pesquisador.orienta.append(Orientacoes)                   
+                    entidade_pesquisador.orienta.append(Orientacoes)
+
+            # Gera as relações Pesquisador orienta Formacoes
+            for Formacoes in onto["Formacoes"].instances():
+                Formacoes_lattes_id = Formacoes.LattesId[0]
+                if Pesquisador_lattes_id == Formacoes_lattes_id:
+                    #cria relação
+                    entidade_pesquisador.possui_formacao.append(Formacoes)                   
 
 
 
@@ -260,6 +272,7 @@ with onto:
     gera_atuacoes()
     gera_orientacoes()
     gera_formacoes()
+    
 
     # Chamando a função para vincular automaticamente todas as relações para todos os Pesquisadores
     vincular_todos_por_lattesid("Pesquisador")

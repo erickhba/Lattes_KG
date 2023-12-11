@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl"
-         xmlns="file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl#">
+         xml:base="file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl"
+         xmlns="file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#">
 
-<owl:Ontology rdf:about="file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl"/>
+<owl:Ontology rdf:about="file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl"/>
 
 <owl:ObjectProperty rdf:about="#areas_relacionadas">
   <rdfs:domain rdf:resource="#Pesquisador"/>
@@ -23,17 +23,22 @@
   <rdfs:range rdf:resource="#Orientacoes"/>
 </owl:ObjectProperty>
 
-<owl:DatatypeProperty rdf:about="#LattesId">
+<owl:ObjectProperty rdf:about="#possui_formacao">
   <rdfs:domain rdf:resource="#Pesquisador"/>
+  <rdfs:range rdf:resource="#Formacoes"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#LattesId">
+  <rdfs:domain rdf:resource="#Atuacoes"/>
   <rdfs:domain rdf:resource="#AreasAtuacao"/>
   <rdfs:domain rdf:resource="#Orientacoes"/>
-  <rdfs:domain rdf:resource="#Atuacoes"/>
+  <rdfs:domain rdf:resource="#Pesquisador"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Nome">
-  <rdfs:domain rdf:resource="#Pesquisador"/>
   <rdfs:domain rdf:resource="#Orientacoes"/>
+  <rdfs:domain rdf:resource="#Pesquisador"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
@@ -162,6 +167,9 @@
   <orienta rdf:resource="#orientacoes630"/>
   <orienta rdf:resource="#orientacoes631"/>
   <orienta rdf:resource="#orientacoes632"/>
+  <possui_formacao rdf:resource="#formacoes1"/>
+  <possui_formacao rdf:resource="#formacoes2"/>
+  <possui_formacao rdf:resource="#formacoes3"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">361123363747622</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gisele da Silva Craveiro</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campo Grande</Cidade>
@@ -239,6 +247,11 @@
   <orienta rdf:resource="#orientacoes693"/>
   <orienta rdf:resource="#orientacoes694"/>
   <orienta rdf:resource="#orientacoes695"/>
+  <possui_formacao rdf:resource="#formacoes4"/>
+  <possui_formacao rdf:resource="#formacoes5"/>
+  <possui_formacao rdf:resource="#formacoes6"/>
+  <possui_formacao rdf:resource="#formacoes7"/>
+  <possui_formacao rdf:resource="#formacoes8"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827495526048435</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana Amélia Benedito Silva</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">São Paulo</Cidade>
@@ -276,6 +289,10 @@
   <orienta rdf:resource="#orientacoes727"/>
   <orienta rdf:resource="#orientacoes728"/>
   <orienta rdf:resource="#orientacoes729"/>
+  <possui_formacao rdf:resource="#formacoes9"/>
+  <possui_formacao rdf:resource="#formacoes10"/>
+  <possui_formacao rdf:resource="#formacoes11"/>
+  <possui_formacao rdf:resource="#formacoes12"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1068554491963326</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esteban Fernandez Tuesta</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lima</Cidade>
@@ -346,6 +363,10 @@
   <orienta rdf:resource="#orientacoes514"/>
   <orienta rdf:resource="#orientacoes515"/>
   <orienta rdf:resource="#orientacoes516"/>
+  <possui_formacao rdf:resource="#formacoes13"/>
+  <possui_formacao rdf:resource="#formacoes14"/>
+  <possui_formacao rdf:resource="#formacoes15"/>
+  <possui_formacao rdf:resource="#formacoes16"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1216871665198656</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandre Ferreira Ramos</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribeirão Preto</Cidade>
@@ -445,6 +466,10 @@
   <orienta rdf:resource="#orientacoes107"/>
   <orienta rdf:resource="#orientacoes108"/>
   <orienta rdf:resource="#orientacoes109"/>
+  <possui_formacao rdf:resource="#formacoes17"/>
+  <possui_formacao rdf:resource="#formacoes18"/>
+  <possui_formacao rdf:resource="#formacoes19"/>
+  <possui_formacao rdf:resource="#formacoes20"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2201580020088062</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José de Jesús Pérez Alcázar</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ibagué</Cidade>
@@ -490,6 +515,13 @@
   <orienta rdf:resource="#orientacoes736"/>
   <orienta rdf:resource="#orientacoes737"/>
   <orienta rdf:resource="#orientacoes738"/>
+  <possui_formacao rdf:resource="#formacoes21"/>
+  <possui_formacao rdf:resource="#formacoes22"/>
+  <possui_formacao rdf:resource="#formacoes23"/>
+  <possui_formacao rdf:resource="#formacoes24"/>
+  <possui_formacao rdf:resource="#formacoes25"/>
+  <possui_formacao rdf:resource="#formacoes26"/>
+  <possui_formacao rdf:resource="#formacoes27"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">André Cavalcanti Rocha Martins</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">São Paulo</Cidade>
@@ -578,6 +610,12 @@
   <orienta rdf:resource="#orientacoes45"/>
   <orienta rdf:resource="#orientacoes46"/>
   <orienta rdf:resource="#orientacoes47"/>
+  <possui_formacao rdf:resource="#formacoes28"/>
+  <possui_formacao rdf:resource="#formacoes29"/>
+  <possui_formacao rdf:resource="#formacoes30"/>
+  <possui_formacao rdf:resource="#formacoes31"/>
+  <possui_formacao rdf:resource="#formacoes32"/>
+  <possui_formacao rdf:resource="#formacoes33"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clodoaldo Aparecido de Moraes Lima</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">São João Nepomuceno</Cidade>
@@ -613,6 +651,9 @@
   <orienta rdf:resource="#orientacoes330"/>
   <orienta rdf:resource="#orientacoes331"/>
   <orienta rdf:resource="#orientacoes332"/>
+  <possui_formacao rdf:resource="#formacoes34"/>
+  <possui_formacao rdf:resource="#formacoes35"/>
+  <possui_formacao rdf:resource="#formacoes36"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3100288618568772</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flávio Luiz Coutinho</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">São Paulo</Cidade>
@@ -633,6 +674,10 @@
   <orienta rdf:resource="#orientacoes546"/>
   <orienta rdf:resource="#orientacoes547"/>
   <orienta rdf:resource="#orientacoes548"/>
+  <possui_formacao rdf:resource="#formacoes37"/>
+  <possui_formacao rdf:resource="#formacoes38"/>
+  <possui_formacao rdf:resource="#formacoes39"/>
+  <possui_formacao rdf:resource="#formacoes40"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4327900264403345</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claudia Inés Garcia</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Córdoba</Cidade>
@@ -717,6 +762,10 @@
   <orienta rdf:resource="#orientacoes484"/>
   <orienta rdf:resource="#orientacoes485"/>
   <orienta rdf:resource="#orientacoes486"/>
+  <possui_formacao rdf:resource="#formacoes41"/>
+  <possui_formacao rdf:resource="#formacoes42"/>
+  <possui_formacao rdf:resource="#formacoes43"/>
+  <possui_formacao rdf:resource="#formacoes44"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5322325760113475</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel de Angelis Cordeiro</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">São Paulo</Cidade>
@@ -820,6 +869,11 @@
   <orienta rdf:resource="#orientacoes616"/>
   <orienta rdf:resource="#orientacoes617"/>
   <orienta rdf:resource="#orientacoes618"/>
+  <possui_formacao rdf:resource="#formacoes45"/>
+  <possui_formacao rdf:resource="#formacoes46"/>
+  <possui_formacao rdf:resource="#formacoes47"/>
+  <possui_formacao rdf:resource="#formacoes48"/>
+  <possui_formacao rdf:resource="#formacoes49"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6342311646947853</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ariane Machado Lima</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taubaté</Cidade>
@@ -849,6 +903,10 @@
   <orienta rdf:resource="#orientacoes708"/>
   <orienta rdf:resource="#orientacoes709"/>
   <orienta rdf:resource="#orientacoes710"/>
+  <possui_formacao rdf:resource="#formacoes50"/>
+  <possui_formacao rdf:resource="#formacoes51"/>
+  <possui_formacao rdf:resource="#formacoes52"/>
+  <possui_formacao rdf:resource="#formacoes53"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7142543937454545</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fábio Nakano</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">São Paulo</Cidade>
@@ -972,6 +1030,11 @@
   <orienta rdf:resource="#orientacoes430"/>
   <orienta rdf:resource="#orientacoes431"/>
   <orienta rdf:resource="#orientacoes432"/>
+  <possui_formacao rdf:resource="#formacoes54"/>
+  <possui_formacao rdf:resource="#formacoes55"/>
+  <possui_formacao rdf:resource="#formacoes56"/>
+  <possui_formacao rdf:resource="#formacoes57"/>
+  <possui_formacao rdf:resource="#formacoes58"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8529032048850930</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">João Luiz Bernardes Júnior</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rio de Janeiro</Cidade>
@@ -1024,6 +1087,14 @@
   <orienta rdf:resource="#orientacoes542"/>
   <orienta rdf:resource="#orientacoes543"/>
   <orienta rdf:resource="#orientacoes544"/>
+  <possui_formacao rdf:resource="#formacoes59"/>
+  <possui_formacao rdf:resource="#formacoes60"/>
+  <possui_formacao rdf:resource="#formacoes61"/>
+  <possui_formacao rdf:resource="#formacoes62"/>
+  <possui_formacao rdf:resource="#formacoes63"/>
+  <possui_formacao rdf:resource="#formacoes64"/>
+  <possui_formacao rdf:resource="#formacoes65"/>
+  <possui_formacao rdf:resource="#formacoes66"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camilo Rodrigues Neto</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rio Claro</Cidade>
@@ -1289,6 +1360,13 @@
   <orienta rdf:resource="#orientacoes312"/>
   <orienta rdf:resource="#orientacoes313"/>
   <orienta rdf:resource="#orientacoes314"/>
+  <possui_formacao rdf:resource="#formacoes67"/>
+  <possui_formacao rdf:resource="#formacoes68"/>
+  <possui_formacao rdf:resource="#formacoes69"/>
+  <possui_formacao rdf:resource="#formacoes70"/>
+  <possui_formacao rdf:resource="#formacoes71"/>
+  <possui_formacao rdf:resource="#formacoes72"/>
+  <possui_formacao rdf:resource="#formacoes73"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fátima de Lourdes dos Santos Nunes Marques</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bauru</Cidade>
@@ -1356,6 +1434,12 @@
   <orienta rdf:resource="#orientacoes658"/>
   <orienta rdf:resource="#orientacoes659"/>
   <orienta rdf:resource="#orientacoes660"/>
+  <possui_formacao rdf:resource="#formacoes74"/>
+  <possui_formacao rdf:resource="#formacoes75"/>
+  <possui_formacao rdf:resource="#formacoes76"/>
+  <possui_formacao rdf:resource="#formacoes77"/>
+  <possui_formacao rdf:resource="#formacoes78"/>
+  <possui_formacao rdf:resource="#formacoes79"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
   <Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Ricardo Gonçalves de Mendonça</Nome>
   <Cidade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santos</Cidade>

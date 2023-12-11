@@ -1,0 +1,135 @@
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl#>
+SELECT ?orientacao
+WHERE {
+  ?pesquisador :Nome "Gisele da Silva Craveiro" .
+  ?pesquisador :orienta ?orientacao .
+}
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl#>
+
+SELECT ?orientacao ?instituicao ?tipoTrabalho ?statusOrientacao ?ano ?nome
+WHERE {
+  ?pesquisador :Nome "Gisele da Silva Craveiro" .
+  ?pesquisador :orienta ?orientacao .
+  ?orientacao :Instituicao ?instituicao .
+  ?orientacao :TipoTrabalho ?tipoTrabalho .
+  ?orientacao :StatusOrientacao ?statusOrientacao .
+  ?orientacao :Ano ?ano .
+  ?orientacao :Nome ?nome .
+} ORDER BY ?ano
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+SELECT ?pesquisador
+WHERE {
+  ?pesquisador a :Pesquisador.
+}
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?nome
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :Nome ?nome.
+}
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?areaAtuacao
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :areas_relacionadas ?areaAtuacao.
+}
+
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?orientacao ?ano
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :orienta ?orientacao.
+  ?orientacao :Ano ?ano.
+}
+#####################
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pais (COUNT(?pesquisador) AS ?totalPesquisadores)
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :Pais ?pais.
+}
+GROUP BY ?pais
+ORDER BY DESC(?totalPesquisadores)
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?instituicao (COUNT(?orientacao) AS ?totalOrientacoes)
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :orienta ?orientacao.
+  ?orientacao :Instituicao ?instituicao.
+}
+GROUP BY ?instituicao
+ORDER BY DESC(?totalOrientacoes)
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?tipoTrabalho
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :orienta ?orientacao.
+  ?orientacao :TipoTrabalho ?tipoTrabalho.
+}
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?tipoTrabalho (COUNT(?tipoTrabalho) AS ?totalTiposTrabalho)
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :orienta ?orientacao.
+  ?orientacao :TipoTrabalho ?tipoTrabalho.
+}
+GROUP BY ?pesquisador ?tipoTrabalho
+ORDER BY ?pesquisador ?tipoTrabalho
+
+
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?formacao ?titulo
+WHERE {
+  ?pesquisador a :Pesquisador.
+  ?pesquisador :possui_formacao ?formacao.
+  ?formacao :Titulo ?titulo
+}
+
+
+
+
+
+PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+
+SELECT ?pesquisador ?areaAtuacao ?atuacao ?orientacao ?formacao
+WHERE {
+  ?pesquisador a :Pesquisador.
+  OPTIONAL {
+    ?pesquisador :areas_relacionadas ?areaAtuacao.
+  }
+  OPTIONAL {
+    ?pesquisador :atua_em ?atuacao.
+  }
+  OPTIONAL {
+    ?pesquisador :orienta ?orientacao.
+  }
+  OPTIONAL {
+    ?pesquisador :possui_formacao ?formacao.
+  }
+}
+

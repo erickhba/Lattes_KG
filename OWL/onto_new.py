@@ -277,7 +277,6 @@ with onto:
     # Chamando a função para vincular automaticamente todas as relações para todos os Pesquisadores
     vincular_todos_por_lattesid("Pesquisador")
 
-
     onto.save()
 
 

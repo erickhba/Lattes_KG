@@ -1,11 +1,11 @@
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 SELECT ?orientacao
 WHERE {
   ?pesquisador :Nome "Gisele da Silva Craveiro" .
   ?pesquisador :orienta ?orientacao .
 }
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/owlReady/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?orientacao ?instituicao ?tipoTrabalho ?statusOrientacao ?ano ?nome
 WHERE {
@@ -19,13 +19,13 @@ WHERE {
 } ORDER BY ?ano
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 SELECT ?pesquisador
 WHERE {
   ?pesquisador a :Pesquisador.
 }
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?nome
 WHERE {
@@ -33,7 +33,7 @@ WHERE {
   ?pesquisador :Nome ?nome.
 }
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?areaAtuacao
 WHERE {
@@ -43,7 +43,7 @@ WHERE {
 
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?orientacao ?ano
 WHERE {
@@ -54,7 +54,7 @@ WHERE {
 #####################
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pais (COUNT(?pesquisador) AS ?totalPesquisadores)
 WHERE {
@@ -65,7 +65,7 @@ GROUP BY ?pais
 ORDER BY DESC(?totalPesquisadores)
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?instituicao (COUNT(?orientacao) AS ?totalOrientacoes)
 WHERE {
@@ -77,7 +77,7 @@ GROUP BY ?instituicao
 ORDER BY DESC(?totalOrientacoes)
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?tipoTrabalho
 WHERE {
@@ -87,7 +87,7 @@ WHERE {
 }
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?tipoTrabalho (COUNT(?tipoTrabalho) AS ?totalTiposTrabalho)
 WHERE {
@@ -101,7 +101,7 @@ ORDER BY ?pesquisador ?tipoTrabalho
 
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?formacao ?titulo
 WHERE {
@@ -114,7 +114,7 @@ WHERE {
 
 
 
-PREFIX : <file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl#>
+PREFIX : <PREFIX : <file:Lattes_KG#>
 
 SELECT ?pesquisador ?areaAtuacao ?atuacao ?orientacao ?formacao
 WHERE {

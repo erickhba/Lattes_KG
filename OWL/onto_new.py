@@ -1,19 +1,19 @@
 from owlready2 import get_ontology, DataProperty, ObjectProperty, Thing
 import pandas as pd
 import datetime 
-#onto = get_ontology("file:///home/erick_albuquerque/Documents/TCC/first_ontology.rdf").load()
-
 
 #path on linux
-owl_path = "file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl"
+#owl_path = "file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl"
 
 #path on windows
-#owl_path = "file://C:\\Users\\User\\Documents\\Faculdade\\TCC\\owlReady\\ontology.owl"
+owl_path = "file://C:\\Users\\User\\Documents\\Faculdade\\Lattes_KG\\OWL\\ontology.owl"
 
 onto = get_ontology(owl_path).load()
 
 
-PREFIX = '/home/erick_albuquerque/Documents/TCC/dados'
+#PREFIX Linux = '/home/erick_albuquerque/Documents/TCC/dados'
+PREFIX = 'C:\\Users\\User\\Documents\\Faculdade\\TCC\\dados'
+
 
 # all entities classes, object properties/relations, and data properties are defined within same namespace,
 # so these objects of knowledge graph can be managed within same scope.
@@ -85,7 +85,6 @@ with onto:
         domain = [Pesquisador]
         range = [str]
 
-###############
     class TipoTrabalho(DataProperty):
         domain = [Orientacoes]
         range = [str]
@@ -106,11 +105,6 @@ with onto:
         domain = [Formacoes]
         range = [datetime.datetime]
     
-
-
-
-
-
 
 # Object properties
     class areas_relacionadas(ObjectProperty):
@@ -207,7 +201,7 @@ with onto:
 
     def gera_formacoes():
         df = pd.read_csv(f'{PREFIX}/formacoes1.txt', sep="\t", header=None, encoding='ISO-8859-1')
-        df.columns = ['id','unknow1','titulo','unknow2','inicio','fim','status','nome_instituicao','unknow3', 'unknow4']
+        df.columns = ['id','unknow1','titulo','unknow2','inicio','fim','status', 'curso','nome_instituicao','unknow3']
         
         df.id = df.id.astype('string')
         df.inicio = df.inicio.astype('string', errors='ignore')

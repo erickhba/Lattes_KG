@@ -1,61 +1,13 @@
-PREFIX : <PREFIX : <file:Lattes_KG#>
+#Query 1
+PREFIX : <file:Lattes_KG#>
 SELECT ?orientacao
 WHERE {
   ?pesquisador :Nome "Gisele da Silva Craveiro" .
   ?pesquisador :orienta ?orientacao .
 }
 
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
-SELECT ?orientacao ?instituicao ?tipoTrabalho ?statusOrientacao ?ano ?nome
-WHERE {
-  ?pesquisador :Nome "Gisele da Silva Craveiro" .
-  ?pesquisador :orienta ?orientacao .
-  ?orientacao :Instituicao ?instituicao .
-  ?orientacao :TipoTrabalho ?tipoTrabalho .
-  ?orientacao :StatusOrientacao ?statusOrientacao .
-  ?orientacao :Ano ?ano .
-  ?orientacao :Nome ?nome .
-} ORDER BY ?ano
-
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-SELECT ?pesquisador
-WHERE {
-  ?pesquisador a :Pesquisador.
-}
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
-SELECT ?pesquisador ?nome
-WHERE {
-  ?pesquisador a :Pesquisador.
-  ?pesquisador :Nome ?nome.
-}
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
-SELECT ?pesquisador ?areaAtuacao
-WHERE {
-  ?pesquisador a :Pesquisador.
-  ?pesquisador :areas_relacionadas ?areaAtuacao.
-}
-
-
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
-SELECT ?pesquisador ?orientacao ?ano
-WHERE {
-  ?pesquisador a :Pesquisador.
-  ?pesquisador :orienta ?orientacao.
-  ?orientacao :Ano ?ano.
-}
-#####################
-
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
+#Query 2
+PREFIX : <file:Lattes_KG#>
 SELECT ?pais (COUNT(?pesquisador) AS ?totalPesquisadores)
 WHERE {
   ?pesquisador a :Pesquisador.
@@ -65,8 +17,19 @@ GROUP BY ?pais
 ORDER BY DESC(?totalPesquisadores)
 
 
-PREFIX : <PREFIX : <file:Lattes_KG#>
+#Query 3
+PREFIX : <file:Lattes_KG#>
+SELECT DISTINCT ?pesquisador1 ?pesquisador2 ?instituicao
+WHERE {
+  ?pesquisador1 :possui_formacao ?formacao1 .
+  ?pesquisador2 :possui_formacao ?formacao2 .
+  ?formacao1 :Instituicao ?instituicao .
+  FILTER (?pesquisador1 != ?pesquisador2)
+}
 
+#extra queries
+
+PREFIX : <file:Lattes_KG#>
 SELECT ?instituicao (COUNT(?orientacao) AS ?totalOrientacoes)
 WHERE {
   ?pesquisador a :Pesquisador.
@@ -77,8 +40,7 @@ GROUP BY ?instituicao
 ORDER BY DESC(?totalOrientacoes)
 
 
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
+PREFIX : <file:Lattes_KG#>
 SELECT ?pesquisador ?tipoTrabalho
 WHERE {
   ?pesquisador a :Pesquisador.
@@ -87,8 +49,7 @@ WHERE {
 }
 
 
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
+PREFIX : <file:Lattes_KG#>
 SELECT ?pesquisador ?tipoTrabalho (COUNT(?tipoTrabalho) AS ?totalTiposTrabalho)
 WHERE {
   ?pesquisador a :Pesquisador.
@@ -98,11 +59,7 @@ WHERE {
 GROUP BY ?pesquisador ?tipoTrabalho
 ORDER BY ?pesquisador ?tipoTrabalho
 
-
-
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
+PREFIX : <file:Lattes_KG#>
 SELECT ?pesquisador ?formacao ?titulo
 WHERE {
   ?pesquisador a :Pesquisador.
@@ -111,25 +68,9 @@ WHERE {
 }
 
 
-
-
-
-PREFIX : <PREFIX : <file:Lattes_KG#>
-
-SELECT ?pesquisador ?areaAtuacao ?atuacao ?orientacao ?formacao
+PREFIX : <file:Lattes_KG#>
+SELECT  ?pesquisador ?orientacao
 WHERE {
-  ?pesquisador a :Pesquisador.
-  OPTIONAL {
-    ?pesquisador :areas_relacionadas ?areaAtuacao.
-  }
-  OPTIONAL {
-    ?pesquisador :atua_em ?atuacao.
-  }
-  OPTIONAL {
-    ?pesquisador :orienta ?orientacao.
-  }
-  OPTIONAL {
-    ?pesquisador :possui_formacao ?formacao.
-  }
+  ?pesquisador :Nome "Gisele da Silva Craveiro" .
+  ?pesquisador :orienta ?orientacao .
 }
-

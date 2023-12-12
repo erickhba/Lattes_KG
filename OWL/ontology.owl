@@ -29,16 +29,16 @@
 </owl:ObjectProperty>
 
 <owl:DatatypeProperty rdf:about="#LattesId">
-  <rdfs:domain rdf:resource="#AreasAtuacao"/>
   <rdfs:domain rdf:resource="#Orientacoes"/>
   <rdfs:domain rdf:resource="#Pesquisador"/>
   <rdfs:domain rdf:resource="#Atuacoes"/>
+  <rdfs:domain rdf:resource="#AreasAtuacao"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Nome">
-  <rdfs:domain rdf:resource="#Orientacoes"/>
   <rdfs:domain rdf:resource="#Pesquisador"/>
+  <rdfs:domain rdf:resource="#Orientacoes"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
@@ -84,8 +84,8 @@
 
 <owl:DatatypeProperty rdf:about="#Instituicao">
   <rdfs:domain rdf:resource="#Formacoes"/>
-  <rdfs:domain rdf:resource="#Orientacoes"/>
   <rdfs:domain rdf:resource="#Atuacoes"/>
+  <rdfs:domain rdf:resource="#Orientacoes"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
@@ -10981,7 +10981,7 @@
 <owl:NamedIndividual rdf:about="#formacoes1">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">361123363747622</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.0</AnoFim>
@@ -10990,7 +10990,7 @@
 <owl:NamedIndividual rdf:about="#formacoes2">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">361123363747622</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncia da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoFim>
@@ -10999,7 +10999,7 @@
 <owl:NamedIndividual rdf:about="#formacoes3">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">361123363747622</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacharelado Em Ciï¿½ncia da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Federal de Mato Grosso do Sul</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995.0</AnoFim>
@@ -11008,6 +11008,7 @@
 <owl:NamedIndividual rdf:about="#formacoes4">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827495526048435</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIVRE-DOCENCIA</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
@@ -11016,6 +11017,7 @@
 <owl:NamedIndividual rdf:about="#formacoes5">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827495526048435</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universitat de Barcelona</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019.0</AnoFim>
@@ -11024,7 +11026,7 @@
 <owl:NamedIndividual rdf:about="#formacoes6">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827495526048435</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoFim>
@@ -11033,7 +11035,7 @@
 <owl:NamedIndividual rdf:about="#formacoes7">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827495526048435</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993.0</AnoFim>
@@ -11042,7 +11044,7 @@
 <owl:NamedIndividual rdf:about="#formacoes8">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827495526048435</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Eletrica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1972.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1976.0</AnoFim>
@@ -11051,6 +11053,7 @@
 <owl:NamedIndividual rdf:about="#formacoes9">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1068554491963326</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad Carlos III de Madrid</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014.0</AnoFim>
@@ -11059,7 +11062,7 @@
 <owl:NamedIndividual rdf:about="#formacoes10">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1068554491963326</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoFim>
@@ -11068,7 +11071,7 @@
 <owl:NamedIndividual rdf:about="#formacoes11">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1068554491963326</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estatï¿½stica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999.0</AnoFim>
@@ -11077,7 +11080,7 @@
 <owl:NamedIndividual rdf:about="#formacoes12">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1068554491963326</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estatistica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad Nacional Federico Villarreal</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1987.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992.0</AnoFim>
@@ -11086,6 +11089,7 @@
 <owl:NamedIndividual rdf:about="#formacoes13">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1216871665198656</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">State University of New York -- Stony Brook</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009.0</AnoFim>
@@ -11094,6 +11098,7 @@
 <owl:NamedIndividual rdf:about="#formacoes14">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1216871665198656</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019.0</AnoFim>
@@ -11102,7 +11107,7 @@
 <owl:NamedIndividual rdf:about="#formacoes15">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1216871665198656</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008.0</AnoFim>
@@ -11111,7 +11116,7 @@
 <owl:NamedIndividual rdf:about="#formacoes16">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1216871665198656</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoFim>
@@ -11120,6 +11125,7 @@
 <owl:NamedIndividual rdf:about="#formacoes17">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2201580020088062</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoFim>
@@ -11128,7 +11134,7 @@
 <owl:NamedIndividual rdf:about="#formacoes18">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2201580020088062</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informï¿½tica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pontifícia Universidade Católica do Rio de Janeiro</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995.0</AnoFim>
@@ -11137,7 +11143,7 @@
 <owl:NamedIndividual rdf:about="#formacoes19">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2201580020088062</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncias da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Federal de Minas Gerais</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1985.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988.0</AnoFim>
@@ -11146,7 +11152,7 @@
 <owl:NamedIndividual rdf:about="#formacoes20">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2201580020088062</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingenierï¿½a de Sistemas y Computaciï¿½n</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad de los Andes Colombia</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1978.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983.0</AnoFim>
@@ -11155,6 +11161,7 @@
 <owl:NamedIndividual rdf:about="#formacoes21">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIVRE-DOCENCIA</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
@@ -11163,6 +11170,7 @@
 <owl:NamedIndividual rdf:about="#formacoes22">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole Polytechnique</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
 </owl:NamedIndividual>
@@ -11170,6 +11178,7 @@
 <owl:NamedIndividual rdf:about="#formacoes23">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
 </owl:NamedIndividual>
@@ -11177,6 +11186,7 @@
 <owl:NamedIndividual rdf:about="#formacoes24">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997.0</AnoFim>
@@ -11185,7 +11195,7 @@
 <owl:NamedIndividual rdf:about="#formacoes25">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoFim>
@@ -11194,7 +11204,7 @@
 <owl:NamedIndividual rdf:about="#formacoes26">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991.0</AnoFim>
@@ -11203,7 +11213,7 @@
 <owl:NamedIndividual rdf:about="#formacoes27">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2318177531681999</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1985.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988.0</AnoFim>
@@ -11212,6 +11222,7 @@
 <owl:NamedIndividual rdf:about="#formacoes28">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006.0</AnoFim>
@@ -11220,7 +11231,7 @@
 <owl:NamedIndividual rdf:about="#formacoes29">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoFim>
@@ -11229,7 +11240,7 @@
 <owl:NamedIndividual rdf:about="#formacoes30">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.0</AnoFim>
@@ -11238,7 +11249,7 @@
 <owl:NamedIndividual rdf:about="#formacoes31">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciencias Contabeis</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faculdade de Ciencias Contabeis e Adm Machado Sobrinho</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
 </owl:NamedIndividual>
@@ -11246,7 +11257,7 @@
 <owl:NamedIndividual rdf:about="#formacoes32">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adminstracao de Empresa</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faculdade de Ciencias Contabeis e Adm Machado Sobrinho</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995.0</AnoFim>
@@ -11255,7 +11266,7 @@
 <owl:NamedIndividual rdf:about="#formacoes33">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3017337174053381</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Federal de Juiz de Fora</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997.0</AnoFim>
@@ -11264,7 +11275,7 @@
 <owl:NamedIndividual rdf:about="#formacoes34">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3100288618568772</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncias da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011.0</AnoFim>
@@ -11273,7 +11284,7 @@
 <owl:NamedIndividual rdf:about="#formacoes35">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3100288618568772</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncias da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006.0</AnoFim>
@@ -11282,7 +11293,7 @@
 <owl:NamedIndividual rdf:about="#formacoes36">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3100288618568772</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncia da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001.0</AnoFim>
@@ -11291,6 +11302,7 @@
 <owl:NamedIndividual rdf:about="#formacoes37">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4327900264403345</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instituto de Matemática e Estatística</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007.0</AnoFim>
@@ -11299,6 +11311,7 @@
 <owl:NamedIndividual rdf:about="#formacoes38">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4327900264403345</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoFim>
@@ -11307,7 +11320,7 @@
 <owl:NamedIndividual rdf:about="#formacoes39">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4327900264403345</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matemï¿½tica Aplicada</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001.0</AnoFim>
@@ -11316,7 +11329,7 @@
 <owl:NamedIndividual rdf:about="#formacoes40">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4327900264403345</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Licenciatura En Matemï¿½tica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad Nacional de Córdoba - Argentina</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoFim>
@@ -11325,6 +11338,7 @@
 <owl:NamedIndividual rdf:about="#formacoes41">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5322325760113475</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015.0</AnoFim>
@@ -11333,7 +11347,7 @@
 <owl:NamedIndividual rdf:about="#formacoes42">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5322325760113475</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathï¿½matiques-informatique</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Université de Grenoble</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012.0</AnoFim>
@@ -11342,7 +11356,7 @@
 <owl:NamedIndividual rdf:about="#formacoes43">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5322325760113475</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncias da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006.0</AnoFim>
@@ -11351,7 +11365,7 @@
 <owl:NamedIndividual rdf:about="#formacoes44">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5322325760113475</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncia da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.0</AnoFim>
@@ -11360,6 +11374,7 @@
 <owl:NamedIndividual rdf:about="#formacoes45">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6342311646947853</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIVRE-DOCENCIA</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
@@ -11368,6 +11383,7 @@
 <owl:NamedIndividual rdf:about="#formacoes46">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6342311646947853</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009.0</AnoFim>
@@ -11376,7 +11392,7 @@
 <owl:NamedIndividual rdf:about="#formacoes47">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6342311646947853</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformï¿½tica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006.0</AnoFim>
@@ -11385,7 +11401,7 @@
 <owl:NamedIndividual rdf:about="#formacoes48">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6342311646947853</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncias da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoFim>
@@ -11394,7 +11410,7 @@
 <owl:NamedIndividual rdf:about="#formacoes49">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6342311646947853</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncia da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoFim>
@@ -11403,6 +11419,7 @@
 <owl:NamedIndividual rdf:about="#formacoes50">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7142543937454545</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010.0</AnoFim>
@@ -11411,7 +11428,7 @@
 <owl:NamedIndividual rdf:about="#formacoes51">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7142543937454545</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformï¿½tica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006.0</AnoFim>
@@ -11420,7 +11437,7 @@
 <owl:NamedIndividual rdf:about="#formacoes52">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7142543937454545</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matemï¿½tica Aplicada</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999.0</AnoFim>
@@ -11429,7 +11446,7 @@
 <owl:NamedIndividual rdf:about="#formacoes53">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7142543937454545</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993.0</AnoFim>
@@ -11438,6 +11455,7 @@
 <owl:NamedIndividual rdf:about="#formacoes54">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8529032048850930</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enid High School</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENSINO-MEDIO-SEGUNDO-GRAU</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993.0</AnoFim>
@@ -11446,6 +11464,7 @@
 <owl:NamedIndividual rdf:about="#formacoes55">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8529032048850930</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escola de 1o e 2o Grau Barão do Rio Branco</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENSINO-FUNDAMENTAL-PRIMEIRO-GRAU</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990.0</AnoFim>
@@ -11454,7 +11473,7 @@
 <owl:NamedIndividual rdf:about="#formacoes56">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8529032048850930</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escola Politécnica da Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010.0</AnoFim>
@@ -11463,7 +11482,7 @@
 <owl:NamedIndividual rdf:about="#formacoes57">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8529032048850930</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Mecï¿½nica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escola Politécnica da Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoFim>
@@ -11472,7 +11491,7 @@
 <owl:NamedIndividual rdf:about="#formacoes58">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8529032048850930</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Mecï¿½nica de Automaï¿½ï¿½o e Sistemas</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escola Politécnica da Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoFim>
@@ -11481,6 +11500,7 @@
 <owl:NamedIndividual rdf:about="#formacoes59">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIVRE-DOCENCIA</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
@@ -11489,6 +11509,7 @@
 <owl:NamedIndividual rdf:about="#formacoes60">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Oldenburg</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004.0</AnoFim>
@@ -11497,6 +11518,7 @@
 <owl:NamedIndividual rdf:about="#formacoes61">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instituto Nacional de Pesquisas Espaciais</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001.0</AnoFim>
@@ -11505,6 +11527,7 @@
 <owl:NamedIndividual rdf:about="#formacoes62">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.0</AnoFim>
@@ -11513,6 +11536,7 @@
 <owl:NamedIndividual rdf:about="#formacoes63">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Max Planck Institute for the Physics of Complex Systems - Dresden</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.0</AnoFim>
@@ -11521,7 +11545,7 @@
 <owl:NamedIndividual rdf:about="#formacoes64">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997.0</AnoFim>
@@ -11530,7 +11554,7 @@
 <owl:NamedIndividual rdf:about="#formacoes65">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992.0</AnoFim>
@@ -11539,7 +11563,7 @@
 <owl:NamedIndividual rdf:about="#formacoes66">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8618151183586924</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986.0</AnoFim>
@@ -11548,6 +11572,7 @@
 <owl:NamedIndividual rdf:about="#formacoes67">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escola de Artes, Ciências e Humanidades - Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIVRE-DOCENCIA</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</AnoFim>
@@ -11556,6 +11581,7 @@
 <owl:NamedIndividual rdf:about="#formacoes68">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.0</AnoFim>
@@ -11564,7 +11590,7 @@
 <owl:NamedIndividual rdf:about="#formacoes69">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciï¿½ncias - Fï¿½sica Computacional</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001.0</AnoFim>
@@ -11573,7 +11599,7 @@
 <owl:NamedIndividual rdf:about="#formacoes70">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engenharia Elï¿½trica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997.0</AnoFim>
@@ -11582,7 +11608,7 @@
 <owl:NamedIndividual rdf:about="#formacoes71">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anï¿½lise de Sistemas</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faculdade Carlos Pasquale</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESPECIALIZACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990.0</AnoFim>
@@ -11591,7 +11617,7 @@
 <owl:NamedIndividual rdf:about="#formacoes72">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tecnologia Em Processamento de Dados</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual Paulista Júlio de Mesquita Filho</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988.0</AnoFim>
@@ -11600,7 +11626,7 @@
 <owl:NamedIndividual rdf:about="#formacoes73">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8626964624628522</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacharelado Em Ciï¿½ncia da Computaï¿½ï¿½o</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual Paulista Júlio de Mesquita Filho</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoFim>
@@ -11609,7 +11635,7 @@
 <owl:NamedIndividual rdf:about="#formacoes74">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gestï¿½o Estratï¿½gica da Inovaï¿½ï¿½o Tecnolï¿½gica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Estadual de Campinas</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APERFEICOAMENTO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005.0</AnoFim>
@@ -11618,6 +11644,7 @@
 <owl:NamedIndividual rdf:about="#formacoes75">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012.0</AnoFim>
@@ -11626,6 +11653,7 @@
 <owl:NamedIndividual rdf:about="#formacoes76">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratoire de Physique Théorique et Modèles Statistiques</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS-DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019.0</AnoFim>
@@ -11634,7 +11662,7 @@
 <owl:NamedIndividual rdf:about="#formacoes77">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Federal de São Carlos</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOUTORADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.0</AnoFim>
@@ -11643,7 +11671,7 @@
 <owl:NamedIndividual rdf:about="#formacoes78">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESTRADO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996.0</AnoFim>
@@ -11652,7 +11680,7 @@
 <owl:NamedIndividual rdf:about="#formacoes79">
   <rdf:type rdf:resource="#Formacoes"/>
   <LattesId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8792749813872106</LattesId>
-  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fï¿½sica (Bacharelado)</Instituicao>
+  <Instituicao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de São Paulo</Instituicao>
   <Titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRADUACAO</Titulo>
   <AnoInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989.0</AnoInicio>
   <AnoFim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993.0</AnoFim>

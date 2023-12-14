@@ -1,0 +1,63 @@
+0361123363747622	3	CIENCIAS_SOCIAIS_APLICADAS	Administração	Ciência da Computação	
+0361123363747622	2	CIENCIAS_SOCIAIS_APLICADAS	Administração	Acesso à Informação	
+0361123363747622	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Sistemas de Computação	
+0827495526048435	6	CIENCIAS_EXATAS_E_DA_TERRA	Probabilidade e Estatística	Estatística	Análise Multivariada
+0827495526048435	5	CIENCIAS_BIOLOGICAS	Biologia Geral	Desnutrição e Desenvolvimento Fisiológico	
+0827495526048435	4	CIENCIAS_BIOLOGICAS	Biologia Geral	Fisiologia do Exercício	
+0827495526048435	3	CIENCIAS_BIOLOGICAS	Biologia Geral	Saúde do Trabalhador	
+0827495526048435	2	CIENCIAS_BIOLOGICAS	Biologia Geral	Cronobiologia	
+0827495526048435	1	CIENCIAS_BIOLOGICAS	Biologia Geral	Modelos matemáticos de fenômenos rítmicos	
+1068554491963326	5	CIENCIAS_SOCIAIS_APLICADAS	Ciência da Informação	Ciências Sociais Aplicadas	
+1068554491963326	4	ENGENHARIAS	Engenharia de Produção	Pesquisa Operacional	Processos Estocásticos e Teoria das Filas
+1068554491963326	3	CIENCIAS_EXATAS_E_DA_TERRA	Probabilidade e Estatística	Estatística	Análise de Dados
+1068554491963326	2	CIENCIAS_EXATAS_E_DA_TERRA	Probabilidade e Estatística	Estatística	
+1068554491963326	1	CIENCIAS_EXATAS_E_DA_TERRA	Probabilidade e Estatística	Probabilidade e Estatística Aplicadas	
+1216871665198656	4	CIENCIAS_BIOLOGICAS	Genética	Genética Molecular e de Microorganismos	
+1216871665198656	3	CIENCIAS_BIOLOGICAS	Genética	Biologia do desenvolvimento	
+1216871665198656	2	CIENCIAS_EXATAS_E_DA_TERRA	Matemática	Matemática Aplicada	
+1216871665198656	1	CIENCIAS_EXATAS_E_DA_TERRA	Física	Física Biológica	
+2201580020088062	5	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Sistemas de Informação
+2201580020088062	4	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Inteligência Artificial
+2201580020088062	3	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Recuperação de Informação
+2201580020088062	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Tecnología Web
+2201580020088062	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Banco de Dados
+2318177531681999	5	CIENCIAS_EXATAS_E_DA_TERRA	Probabilidade e Estatística	Probabilidade e Estatística Aplicadas	
+2318177531681999	4	CIENCIAS_HUMANAS	Filosofia	Epistemologia	
+2318177531681999	3	CIENCIAS_BIOLOGICAS	Biologia Geral	Modelos Evolucionários	
+2318177531681999	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Matemática da Computação	Modelos Analíticos e de Simulação
+2318177531681999	1	CIENCIAS_EXATAS_E_DA_TERRA	Física	Física Geral	Física Estatística e Termodinâmica
+3017337174053381	6	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Aprendizado Profundo	
+3017337174053381	5	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Inteligência Computacional	Sistemas Biométricos
+3017337174053381	4	ENGENHARIAS	Engenharia Biomédica	Bioengenharia	Processamento de Sinais Biológicos
+3017337174053381	3	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Inteligência Computacional	Logica Fuzzy
+3017337174053381	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Inteligência Computacional	Redes Neurais
+3017337174053381	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Aprendizado de Máquina	
+3100288618568772	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação		
+4327900264403345	4	CIENCIAS_EXATAS_E_DA_TERRA	Matemática	Álgebra computacional	
+4327900264403345	3	CIENCIAS_EXATAS_E_DA_TERRA	Matemática	Matemática Aplicada	Análise Numérica
+4327900264403345	2	CIENCIAS_EXATAS_E_DA_TERRA	Matemática	Matemática Aplicada	Previsão Numérica do Tempo
+4327900264403345	1	CIENCIAS_EXATAS_E_DA_TERRA	Matemática	Matemática Aplicada	
+5322325760113475	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Teoria da Computação	Análise de Algoritmos e Complexidade de Computação
+5322325760113475	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Sistemas de Computação	
+6342311646947853	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Bioinformática	
+6342311646947853	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação		
+8529032048850930	6	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Engenharia de Software
+8529032048850930	5	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Visualização Científica
+8529032048850930	4	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Realidade Virtual
+8529032048850930	3	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Realidade Aumentada
+8529032048850930	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Jogos Eletrônicos	
+8529032048850930	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Processamento Gráfico (Graphics)
+8618151183586924	4	CIENCIAS_EXATAS_E_DA_TERRA	Física	Física Computacional	
+8618151183586924	3	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Matemática da Computação	Modelos Analíticos e de Simulação
+8618151183586924	2	CIENCIAS_EXATAS_E_DA_TERRA	Física	Física Geral	Física Estatística e Termodinâmica
+8618151183586924	1	CIENCIAS_EXATAS_E_DA_TERRA	Física	Física dos Fluídos, Física de Plasmas e Descargas Elétricas	Cinética e Teoria de Transporte de Fluídos; Propriedades Físicas de Gases
+8626964624628522	6	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Sistemas de Informação
+8626964624628522	5	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Visualização de Informações	
+8626964624628522	4	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Processamento Gráfico (Graphics)
+8626964624628522	3	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Banco de Dados
+8626964624628522	2	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Processamento de Imagens
+8626964624628522	1	CIENCIAS_EXATAS_E_DA_TERRA	Ciência da Computação	Metodologia e Técnicas da Computação	Realidade Virtual
+8792749813872106	4	CIENCIAS_SOCIAIS_APLICADAS	Administração	Administração Pública	Planejamento em Ciência e Tecnologia
+8792749813872106	3	CIENCIAS_EXATAS_E_DA_TERRA	Matemática	Matemática Aplicada	Matemática Discreta e Combinatória
+8792749813872106	2	CIENCIAS_EXATAS_E_DA_TERRA	Probabilidade e Estatística	Probabilidade	Processos Estocásticos Especiais
+8792749813872106	1	CIENCIAS_EXATAS_E_DA_TERRA	Física	Física Geral	Física Estatística e Termodinâmica

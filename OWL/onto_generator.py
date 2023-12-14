@@ -4,16 +4,15 @@ import datetime
 
 #path on linux
 #owl_path = "file:///home/erick_albuquerque/Documents/TCC/Lattes_KG/OWL/ontology.owl"
+#PREFIX on linux
+#PREFIX  = '/home/erick_albuquerque/Documents/TCC/dados'
 
 #path on windows
 owl_path = "file://C:\\Users\\User\\Documents\\Faculdade\\Lattes_KG\\OWL\\ontology.owl"
+#PREFIX on windows
+PREFIX = 'C:\\Users\\User\\Documents\\Faculdade\\Lattes_KG\\data'
 
 onto = get_ontology(owl_path).load()
-
-
-#PREFIX Linux = '/home/erick_albuquerque/Documents/TCC/dados'
-PREFIX = 'C:\\Users\\User\\Documents\\Faculdade\\TCC\\dados'
-
 
 # all entities classes, object properties/relations, and data properties are defined within same namespace,
 # so these objects of knowledge graph can be managed within same scope.

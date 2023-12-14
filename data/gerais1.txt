@@ -1,0 +1,16 @@
+0361123363747622	Gisele da Silva Craveiro	24112020	083022	Campo Grande	MS	Brasil	B	
+0827495526048435	Ana Amélia Benedito Silva	17012023	164112	São Paulo	SP	Brasil	B	
+1068554491963326	Esteban Fernandez Tuesta	24032023	001714	Lima		Peru	E	
+1216871665198656	Alexandre Ferreira Ramos	20082023	224124	Ribeirão Preto	SP	Brasil	B	
+2201580020088062	José de Jesús Pérez Alcázar	30122022	154508	Ibagué		Colômbia	E	
+2318177531681999	André Cavalcanti Rocha Martins	21082023	212833	São Paulo	SP	Brasil	B	
+3017337174053381	Clodoaldo Aparecido de Moraes Lima	02032023	135508	São João Nepomuceno	MG	Brasil	B	
+3100288618568772	Flávio Luiz Coutinho	19102021	011805	São Paulo	SP	Brasil	B	
+4327900264403345	Claudia Inés Garcia	20012021	172624	Córdoba		Argentina	E	
+5322325760113475	Daniel de Angelis Cordeiro	14092023	204356	São Paulo	SP	Brasil	B	
+6342311646947853	Ariane Machado Lima	23082023	085925	Taubaté	SP	Brasil	B	
+7142543937454545	Fábio Nakano	14082023	110207	São Paulo	SP	Brasil	B	
+8529032048850930	João Luiz Bernardes Júnior	24082023	225421	Rio de Janeiro	RJ	Brasil	B	
+8618151183586924	Camilo Rodrigues Neto	01092023	171108	Rio Claro	SP	Brasil	B	
+8626964624628522	Fátima de Lourdes dos Santos Nunes Marques	24082023	225940	Bauru	SP	Brasil	B	
+8792749813872106	José Ricardo Gonçalves de Mendonça	10042023	120212	Santos	SP	Brasil	B	
